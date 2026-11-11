@@ -1,0 +1,16 @@
+{
+  "name": "practice-app",
+  "version": "0.1.0",
+  "description": "A tiny HTTP service used to practise agent-driven delivery.",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED"
+}
